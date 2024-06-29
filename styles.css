@@ -1,14 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+}
 .product-list {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
 }
 .product {
     border: 1px solid #ddd;
     margin: 10px;
-    padding: 10px;
-    width: 200px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
 }
 .product img {
     width: 100%;
     height: auto;
 }
+.product:hover {
+    transform: scale(1.05);
+}
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #ddd;
+}
+
