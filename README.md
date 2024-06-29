@@ -1,1 +1,3 @@
-# CodingChallenge13
+The Dynamic Product Display Application is a React-based web application that dynamically fetches and displays product information from an API. This project showcases modern web development practices, including API communication, DOM manipulation, and the creation of user-friendly interfaces.
+
+To set up the project, first install the dependencies by running "npm install". Then, start the development server with "npm start" . Open your browser and navigate to "http://localhost:3000" to view it .
