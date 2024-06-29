@@ -9,7 +9,7 @@ const App = () => {
 
     useEffect(() => {
         console.log("Fetching products...");
-        axios.get('https://course-api.com/react-store-products')
+        axios.get('https://cors-anywhere.herokuapp.com/https://course-api.com/react-store-products')
             .then(response => {
                 console.log("Products fetched successfully:", response.data);
                 setProducts(response.data);
