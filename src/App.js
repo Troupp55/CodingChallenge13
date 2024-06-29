@@ -38,20 +38,3 @@ const App = () => {
 };
 
 export default App;
-
-    if (loading) {
-        return <div>Loading...</div>;
-    }
-
-    if (error) {
-        return <div>{error}</div>;
-    }
-
-    return (
-        <div className="app">
-            <ProductList products={products} />
-        </div>
-    );
-};
-
-export default App;
