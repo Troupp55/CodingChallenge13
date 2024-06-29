@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import ProductList from './components/ProductList'; // Ensure this path is correct
+import ProductList from './components/ProductList';
 
 const App = () => {
     const [products, setProducts] = useState([]);
@@ -35,17 +35,3 @@ const App = () => {
 };
 
 export default App;
-
-    if (loading) {
-        return <div>Loading...</div>;
-    }
-
-    if (error) {
-        return <div>{error}</div>;
-    }
-
-    return (
-        <div className="app">
-            <ProductList products={products} />
-        </div>
-    );
